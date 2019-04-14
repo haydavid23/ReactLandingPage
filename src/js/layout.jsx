@@ -18,6 +18,7 @@ export class Layout extends React.Component {
 				<BrowserRouter>
 					<ScrollToTop>
 						<Navbar />
+
 						<Switch>
 							<Route exact path="/" component={Home} />
 							<Route path="/demo" component={Demo} />
